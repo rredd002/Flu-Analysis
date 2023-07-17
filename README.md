@@ -24,7 +24,7 @@ Since we were looking for the highest precision score, we chose LogisticRegressi
 
 Our LogisticRegression model had the highest precision score as well as the highest ROC AUC score of .8602 so this was clearly the model which had the best performance for our evaluation.
 Based on the coefficients from our model, these were the 4 main predictors:
-- Doctor Recommendation - doctors have a huge impact on whether people get vaccinated or not.
+- Doctor Recommendation - doctors have a huge impact on whether people get vaccinated or not.  
 ![image](./images/doc_analyis.png)
 - Opinion on Effectiveness - the majority of people who don't get the vaccine don't know how effective it is or don't believe it.
 ![image](./images/opinion_effectiveness.png)
