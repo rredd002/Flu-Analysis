@@ -13,20 +13,25 @@ We obtained our data from the National 2009 H1N1 Flu Survey. There were 26000 re
 
 ## Modeling
 
-When creating our models, we decided to use precision as our main metric. We chose precison because we wanted to minimize the number of false positives, i.e the model saying someone got vaccinated when they actually didn't.
-First, we ran a model using the DummyClassifier class which predicted everyone got the vaccine. This resulted in a precision score of 49%.
-Next, we ran a LogisticRegression model using all of our seasonal flu vaccination predictors. This resulted in a precision score of 78%.
-We also tried to make a model using Decision Trees, but the highest precision score we could get was 74%.
-Since we were looking for the highest precision score, we chose LogisticRegression as our model.
+When creating our models, we decided to use precision as our main metric. We chose precison because we wanted to minimize the number of false positives, i.e the model saying someone got vaccinated when they actually didn't.  
+First, we ran a model using the DummyClassifier class which predicted everyone got the vaccine. This resulted in a precision score of 49%.  
+We started with running a DecisionTree model using a max depth of 10 and got a precision score of 74%.  
+Next, we ran a LogisticRegression model using all of our seasonal flu vaccination predictors. This resulted in a precision score of 78%.  
+We also tried to make a model using Decision Trees, but the highest precision score we could get was 74%.  
+Since we were looking for the highest precision score, we chose LogisticRegression as our model.  
 
 ## Evaluation
 
 Our LogisticRegression model had the highest precision score as well as the highest ROC AUC score of .8602 so this was clearly the model which had the best performance for our evaluation.
 Based on the coefficients from our model, these were the 4 main predictors:
 - Doctor Recommendation - doctors have a huge impact on whether people get vaccinated or not.
+![image](./images/doc analyis.png)
 - Opinion on Effectiveness - the majority of people who don't get the vaccine don't know how effective it is or don't believe it.
+![image](./images/opinion effectiveness.png)
 - Age group - people between 18-34 are the least likely to get the vaccine while people 65+ are the most likely
+![image](./images/age group.png)
 - Race - the main limitation of this dataset is that 79% of the respondents were white so this data is heavily biased towards caucasians.
+![image](./images/race.png)
 
 ## Conclusions
 
