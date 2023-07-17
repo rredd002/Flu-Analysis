@@ -27,11 +27,14 @@ Based on the coefficients from our model, these were the 4 main predictors:
 - Doctor Recommendation - doctors have a huge impact on whether people get vaccinated or not.  
 ![image](./images/doc_analysis.png)
   
+  
 - Opinion on Effectiveness - the majority of people who don't get the vaccine don't know how effective it is or don't believe it.
 ![image](./images/opinion_effectiveness.png)
   
+  
 - Age group - people between 18-34 are the least likely to get the vaccine while people 65+ are the most likely
 ![image](./images/age_group.png)
+  
   
 - Race - the main limitation of this dataset is that 79% of the respondents were white so this data is heavily biased towards caucasians.
 ![image](./images/race.png)
@@ -50,7 +53,7 @@ Based on the business problem and our data modeling, here are our recommendation
 
  If you have any questions, please contact our team:
 
- [Rajesh Reddy](https://github.com/rredd002))
+ [Rajesh Reddy](https://github.com/rredd002)
 
  [Stuart Clark](https://github.com/sclarkHOU)
 
