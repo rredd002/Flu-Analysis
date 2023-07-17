@@ -25,11 +25,11 @@ Since we were looking for the highest precision score, we chose LogisticRegressi
 Our LogisticRegression model had the highest precision score as well as the highest ROC AUC score of .8602 so this was clearly the model which had the best performance for our evaluation.
 Based on the coefficients from our model, these were the 4 main predictors:
 - Doctor Recommendation - doctors have a huge impact on whether people get vaccinated or not.
-![image](./images/'doc analyis.png')
+![image](./images/doc analyis.png)
 - Opinion on Effectiveness - the majority of people who don't get the vaccine don't know how effective it is or don't believe it.
-![image](./images/'opinion effectiveness.png')
+![image](./images/opinion effectiveness.png)
 - Age group - people between 18-34 are the least likely to get the vaccine while people 65+ are the most likely
-![image](./images/'age group.png')
+![image](./images/age group.png)
 - Race - the main limitation of this dataset is that 79% of the respondents were white so this data is heavily biased towards caucasians.
 ![image](./images/race.png)
 
