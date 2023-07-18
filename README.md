@@ -72,3 +72,5 @@ Based on the business problem and our data modeling, here are our recommendation
 ├── Flu_Analysis_notebook.pdf
 
 ├── README.md
+
+├── gitignore.txt
